@@ -6,24 +6,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Random Quote Generator</title>
   <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Yeseva+One&display=swap"
+    rel="stylesheet">
 </head>
 <body>
   <main>
-    <div class="title">
-      <h1>Random Quote Generator</h1>
-    </div>
-    <div class="loading-icon hidden"></div>
-    <div class="quote">
-      Quote goes here...
-    </div>
-    <div class="author">
-      Here goes the author
-    </div>
-    <div class="new-quote">
-      <button id="new-quote-button">New Quote</button>
-    </div>
-    <div class="tweet">
-      <a class="twitter button" target="_blank" rel="noopener noreferrer">Tweet it!</a>
+    <div class="container">
+      <div class="title">
+        <h1>Random Quote Generator</h1>
+        <hr>
+      </div>
+
+      <div class="quote-box">
+
+        <div class="quote">
+          Quote goes here...
+        </div>
+        <div class="author">
+          Here goes the author
+        </div>
+      </div>
+      <div class="new-quote">
+        <button id="new-quote-button">New Quote</button>
+      </div>
+      <div class="tweet">
+        <a id="tweet-it" class="twitter button" target="_blank" rel="noopener noreferrer">Tweet it!</a>
+      </div>
+      <div class="loading-icon hidden"></div>
     </div>
   </main>
   <script src="./main.js"></script>
