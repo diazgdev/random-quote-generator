@@ -43,3 +43,5 @@ function displayAuthor(author) {
 function tweetIt(quote, author) {
   tweetButton.setAttribute('href', `https://twitter.com/share?text=${quote} - ${author}`);
 }
+
+getQuote();
